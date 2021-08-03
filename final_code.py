@@ -52,7 +52,8 @@ elif yes_or_no == "no" or yes_or_no == "n":
   print("Very nice to have a re-occuring guest, but I can't remember who you are")
   time.sleep(0.8)
   print()
-  no1 = input("Now before we begin, do you remember the rules of TRO, or do you need a reminder? ").lower()
+  print("Now before we begin, do you remember the rules of TRO, or do you need a reminder? ")
+  no1 = input().lower()
   
   if no1 == "yes" or no1 == "y":
     print()
